@@ -315,7 +315,7 @@ class My_Dialogbox_enable_disable(EasyDialog):
         self.house_enable =self.addCheckbutton(master,text="disable/enable house     ",column=2,row=1, command= self.set_area_visable)
         self.yard_enable=self.addCheckbutton(master,text="disable/enable yard       ",column=1,row=2, command= self.set_area_visable)
         self.driveway_enable =self.addCheckbutton(master,text="disable/enable drive-way",column=2,row=2, command= self.set_area_visable)
-        self.garage_enable =self.addCheckbutton(master,text="disable/enable property",column=1,row=1, command= self.set_area_visable)
+        self.garage_enable =self.addCheckbutton(master,text="disable/enable yard",column=1,row=1, command= self.set_area_visable)
 
     #sets rectangles to being visable not invisable when clicking the check mark
     #remember you have to press it twice because of the way canvas is set up
